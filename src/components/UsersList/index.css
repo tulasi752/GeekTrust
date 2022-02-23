@@ -1,0 +1,226 @@
+.background-container {
+  background: #161625;
+  height: 120vh;
+  display: flex;
+  margin-bottom: 250px;
+  justify-content: center;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  .background-container {
+    background: #161625;
+    height: 220vh;
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.heading-userList {
+  color: white;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .heading-userList {
+    color: white;
+    font-weight: 600;
+  }
+}
+@media (max-width: 767px) {
+  .UserList-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    height: 750px;
+    overflow-y: scroll;
+  }
+}
+@media (min-width: 768px) {
+  .UserList-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.searchBar {
+  height: 26px;
+  background-color: transparent;
+  border: solid 1px white;
+  width: 250px;
+  color: white;
+  border-radius: 3px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .searchBar {
+    height: 26px;
+    background-color: transparent;
+    border: solid 1px white;
+    width: 800px;
+    color: white;
+    border-radius: 3px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+.checkbox {
+  height: 40px;
+  margin-left: 15px;
+}
+::placeholder {
+  color: white;
+  font-size: 15px;
+  font-weight: 400px;
+}
+.listItems-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-shadow: 10px 5px 5px;
+  background-color: #454f84;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding-left: 0px;
+  column-width: auto;
+  padding-right: 10px;
+  height: 48px;
+  width: 600px;
+}
+@media (min-width: 768px) {
+  .listItems-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: 10px 5px 5px;
+    background-color: #454f84;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding-left: 0px;
+    column-width: auto;
+    padding-right: 10px;
+    height: 48px;
+    width: 1000px;
+  }
+}
+
+.heading-userList {
+  color: white;
+  font-weight: 600;
+}
+.pagination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pagination {
+  color: white;
+  font-size: 20px;
+}
+.page-numbers {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+.prev-next {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'roboto';
+  border: solid 1px white;
+  padding: 15px;
+  border-radius: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  list-style-type: none;
+}
+.delete-button {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border-width: none;
+  margin-left: 30px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .delete-button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: none;
+  }
+}
+
+.back-button {
+  background-color: rgb(175, 175, 194);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  border-width: none;
+  margin-right: 50px;
+}
+.noPage-image {
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.UserId {
+  margin-left: 80px;
+  color: white;
+}
+.name {
+  margin-left: 130px;
+  color: white;
+}
+.email {
+  margin-left: 160px;
+  color: white;
+}
+.actions {
+  margin-left: 180px;
+  color: white;
+}
+.role {
+  margin-left: 200px;
+  color: rgb(145, 126, 126);
+}
+.action-icon {
+  color: white;
+  height: 30px;
+  width: 60px;
+}
+.delete-icon {
+  color: white;
+  height: 30px;
+  width: 60px;
+}
+.delete-button {
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .delete-button {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 180px;
+  }
+}

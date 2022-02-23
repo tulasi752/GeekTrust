@@ -1,0 +1,74 @@
+.container-delete {
+  display: flex;
+}
+.list-item {
+  list-style-type: none;
+  color: white;
+}
+
+.checkbox-for-properties {
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .checkbox-for-properties {
+    height: 40px;
+  }
+}
+
+.UserList-Items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  box-shadow: 10px 5px 5px;
+  background-color: #454f84;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 15px;
+  height: 300px;
+  width: 200px;
+  margin-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .UserList-Items-container {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    box-shadow: 10px 5px 5px;
+    justify-content: space-between;
+    background-color: #454f84;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 88px;
+    width: 1000px;
+    margin-left: 20px;
+  }
+}
+.User-name {
+  color: white;
+}
+
+.User-email {
+  color: white;
+}
+.User-role {
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  .User-name {
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .User-email {
+    color: white;
+  }
+}
+@media screen and (min-width: 768px) {
+  .User-role {
+    color: white;
+  }
+}
